@@ -1,2 +1,3 @@
 # Breast_Cancer_screening
-[FLOWchart_Master_thesis.drawio.pdf](https://github.com/user-attachments/files/25346868/FLOWchart_Master_thesis.drawio.pdf)
+
+<img width="541" height="715" alt="Screenshot 2026-02-16 205800" src="https://github.com/user-attachments/assets/1cf24cdb-08b1-489b-a3f7-e68c6d9094b7" />
