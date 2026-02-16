@@ -11,8 +11,8 @@ import math
 
 
 def checkLRFlip(roiname):
-        namelist = os.listdir('/home/hadi/niloofar.shabani/datan/fully_training/')
-        folder1 = '/home/hadi/niloofar.shabani/datan/fully_training/'
+        namelist = os.listdir('/..../trainingmammo')
+        folder1 = '/..../trainingmammo'
         for name in namelist:
             if (name[0:29]) == (roiname[0:29]):
             # Get number of rows and columns in the image.
@@ -43,8 +43,8 @@ def checkLRFlip(roiname):
 
 
 
-folder = os.listdir('/home/hadi/niloofar.shabani/datan/ROI_training')
-folder1 = '/home/hadi/niloofar.shabani/datan/ROI_training/'
+folder = os.listdir('/..../trainingmask')
+folder1 = '/..../trainingmask'
 for name in (folder):
     file_name= name
     img = Image.open(os.path.join(folder1, file_name))
@@ -74,7 +74,7 @@ for name in (folder):
         f_img = img
 
     #save
-    path = '/home/hadi/niloofar.shabani/datan/preprocessed mask/'
+    path = '/..../dest'
     filenamee = name
     f_img = Image.fromarray(f_img)
 
