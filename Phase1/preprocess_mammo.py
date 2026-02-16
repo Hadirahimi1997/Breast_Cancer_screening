@@ -37,8 +37,8 @@ def checkLRFlip(image):
 
 
 
-folder = os.listdir('/..../trainingdata')
-folder1 = '/..../trainingdata/'
+folder = os.listdir('/..../trainingmammo')
+folder1 = '/..../trainingmammo'
 for name in (folder):
     file_name= name
     img = Image.open(os.path.join(folder1, file_name))
@@ -105,7 +105,7 @@ for name in (folder):
         f_img = imgg
 
     #save
-    path = '/home/hadi/niloofar.shabani/datan/preprocessed fully/'
+    path = '/..../dest'
     filenamee = name
     f_img = Image.fromarray(f_img)
 
